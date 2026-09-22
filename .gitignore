@@ -1,6 +1,6 @@
 .env
 venv
-rahul
+
 _pycache__/
 *.pyc
 node_modules/
