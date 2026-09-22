@@ -1,6 +1,6 @@
 services:
   frontend:
-    image: rajputr274/sms-frontend-rahul:latest
+    image: puresoul2004/sms-frontend:harshi
     container_name: sms-frontend
     ports:
       - "5173:5173"
@@ -9,7 +9,7 @@ services:
       - backend
   
   backend:
-    image: rajputr274/sms-backend-rahul:latest
+    image: puresoul2004/sms-backend:harshi
     container_name: sms-backend
     ports:
       - "5000:5000"
